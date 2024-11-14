@@ -9,28 +9,28 @@
   <body>
     <div class="container">
       <div class="calc">
-        <input type="text" placeholder="0" />
-        <button onClick="result()">AC</button>
-        <button onClick="result()">DEL</button>
-        <button onClick="result()">%</button>
-        <button onClick="result()">/</button>
-        <button onClick="result()">7</button>
-        <button onClick="result()">8</button>
-        <button onClick="result()">9</button>
-        <button onClick="result()">*</button>
-        <button onClick="result()">4</button>
-        <button onClick="result()">5</button>
-        <button onClick="result()">6</button>
-        <button onClick="result()">+</button>
-        <button onClick="result()">1</button>
-        <button onClick="result()">2</button>
-        <button onClick="result()">3</button>
-        <button onClick="result()">-</button>
-        <button onClick="result()">0</button>
-        <button onClick="result()">.</button>
-        <button onClick="result()" class="equal">=</button>
+        <input type="text" placeholder="0" id="result" />
+        <button onclick="clearScreen()">AC</button>
+        <button onclick="deleteLast()">DEL</button>
+        <button onclick="percentage()">%</button>
+        <button onclick="display('/')">/</button>
+        <button onclick="display('7')">7</button>
+        <button onclick="display('8')">8</button>
+        <button onclick="display('9')">9</button>
+        <button onclick="display('*')">*</button>
+        <button onclick="display('4')">4</button>
+        <button onclick="display('5')">5</button>
+        <button onclick="display('6')">6</button>
+        <button onclick="display('+')">+</button>
+        <button onclick="display('1')">1</button>
+        <button onclick="display('2')">2</button>
+        <button onclick="display('3')">3</button>
+        <button onclick="display('-')">-</button>
+        <button onclick="display('0')">0</button>
+        <button onclick="display('.')">.</button>
+        <button onclick="calculate()" class="equal">=</button>
       </div>
     </div>
-    <script src="script.js"></script>
   </body>
+  <script src="index.js"></script>
 </html>
