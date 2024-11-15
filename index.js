@@ -67,7 +67,7 @@ function percentage(per) {
 
 // Expressing the most recent operator entered to overwrite/ update the previous operator entered mistakenly or intentionally.
 function display(value) {
-  const operators = ["+", "-", "*", "/"];
+  const operators = ["+", "-", "*", "/", "."];
   const lastOperator = result.value.slice(-1);
 
   if (operators.includes(lastOperator) && operators.includes(value)) {
